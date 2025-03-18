@@ -61,5 +61,5 @@ jobs:
           echo "==== Print token file ===="
           cat ~/.cloudflared/ssh.coding-stream.com-628260655058221560742c188d108f73173c950ac7d49b5322429ea25ef888b2-token
       - name: Run SSH
-        run: ssh browser-editor-web-prd 'bash ~/broadcast-ws/infra-deploy/deploy.sh'
+        run: ssh browser-broadcast-websocket-prd 'bash ~/broadcast-ws/infra-deploy/deploy.sh'
 
